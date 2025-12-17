@@ -1,0 +1,65 @@
+{
+  "email-entry": {
+    "title": "تسجيل الدخول أو إنشاء حساب",
+    "subtitle": "أدخل بريدك الإلكتروني للعمل للمتابعة",
+    "email-label": "عنوان البريد الإلكتروني",
+    "email-placeholder": "user@example.com",
+    "email-error": "الرجاء إدخال عنوان بريد إلكتروني صالح",
+    "public-domain-warning": "الرجاء استخدام بريدك الإلكتروني الخاص بالعمل (غير مسموح باستخدام جيميل/ياهو)",
+    "next-button": "التالي →",
+    "processing": "جاري المعالجة…",
+    "terms-text": "بالمتابعة، أنت توافق على شروطنا وسياسة الخصوصية"
+  },
+  "otp": {
+    "title": "التحقق من بريدك الإلكتروني",
+    "subtitle": "لقد أرسلنا رمز التحقق المكون من 6 أرقام إلى:",
+    "otp-label": "أدخل رمز التحقق",
+    "otp-error": "الرجاء إدخال الرمز المكون من 6 أرقام بالكامل",
+    "verification-failed": "فشل التحقق. يرجى المحاولة مرة أخرى.",
+    "resend-link": "إعادة إرسال الرمز",
+    "resend-countdown": "إعادة إرسال الرمز في {seconds} ثانية",
+    "next-button": "التالي →",
+    "processing": "جاري المعالجة…",
+    "powered-by": "هذا التحقق مدعوم من keypriv.com"
+  },
+  "org-setup": {
+    "title": "إعداد المؤسسة",
+    "subtitle": "أخبرنا عن مؤسستك",
+    "org-name-label": "اسم المؤسسة",
+    "org-name-placeholder": "مثلاً، شركة أكما كوربوريشن",
+    "org-name-error": "اسم المؤسسة مطلوب",
+    "country-label": "البلد",
+    "country-placeholder": "اختر بلداً",
+    "subdomain-label": "نطاق فرعي",
+    "subdomain-placeholder": "مؤسستك-الخاصة",
+    "subdomain-suffix": ".onkeypriv.com",
+    "subdomain-error": "النطاق الفرعي مطلوب ويجب أن يكون فريداً",
+    "next-button": "التالي →",
+    "processing": "جاري المعالجة…",
+    "success-message": "تم إنشاء المؤسسة بنجاح!"
+  },
+  "admin-account": {
+    "title": "إعداد حساب المشرف",
+    "subtitle": "أنشئ حساب المشرف الخاص بك",
+    "first-name-label": "الاسم الأول",
+    "first-name-placeholder": "جون",
+    "first-name-error": "الاسم الأول مطلوب",
+    "last-name-label": "اسم العائلة",
+    "last-name-placeholder": "دوى",
+    "last-name-error": "اسم العائلة مطلوب",
+    "password-label": "كلمة المرور",
+    "password-placeholder": "أنشئ كلمة مرور آمنة",
+    "password-error": "يجب أن تتكون كلمة المرور من 8 أحرف على الأقل مع رقم واحد وحرف خاص واحد",
+    "confirm-password-label": "تأكيد كلمة المرور",
+    "confirm-password-error": "كلمات المرور غير متطابقة",
+    "create-account-button": "إنشاء حساب",
+    "processing": "جاري إنشاء الحساب…",
+    "success-message": "تم إنشاء الحساب بنجاح!"
+  },
+  "complete": {
+    "title": "مرحباً بك في KeyPriv!",
+    "subtitle": "تم إنشاء حسابك بنجاح",
+    "message": "يمكنك الآن الوصول إلى حسابك وبدء استخدام KeyPriv",
+    "continue-button": "المتابعة إلى لوحة التحكم"
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "email-entry": {
+    "title": "Sign in or Create Account",
+    "subtitle": "Enter your work email to continue",
+    "email-label": "Email Address",
+    "email-placeholder": "user@example.com",
+    "email-error": "Please enter a valid email address",
+    "public-domain-warning": "Please use your work email (gmail/yahoo disallowed)",
+    "next-button": "Next →",
+    "processing": "Processing…",
+    "terms-text": "By continuing, you agree to our Terms & Privacy Policy"
+  },
+  "otp": {
+    "title": "Verify Your Email",
+    "subtitle": "We sent a 6-digit verification code to:",
+    "otp-label": "Enter Verification Code",
+    "otp-error": "Please enter the complete 6-digit code",
+    "verification-failed": "Verification failed. Please try again.",
+    "resend-link": "Resend code",
+    "resend-countdown": "Resend code in {seconds} seconds",
+    "next-button": "Next →",
+    "processing": "Processing…",
+    "powered-by": "This verification is powered by keypriv.com"
+  },
+  "org-setup": {
+    "title": "Organization Setup",
+    "subtitle": "Tell us about your organization",
+    "org-name-label": "Organization Name",
+    "org-name-placeholder": "e.g., Acme Corporation",
+    "org-name-error": "Organization name is required",
+    "country-label": "Country",
+    "country-placeholder": "Select a country",
+    "subdomain-label": "Subdomain",
+    "subdomain-placeholder": "your-organization",
+    "subdomain-suffix": ".onkeypriv.com",
+    "subdomain-error": "Subdomain is required and must be unique",
+    "next-button": "Next →",
+    "processing": "Processing…",
+    "success-message": "Organization created successfully!"
+  },
+  "admin-account": {
+    "title": "Admin Account Setup",
+    "subtitle": "Create your administrator account",
+    "first-name-label": "First Name",
+    "first-name-placeholder": "John",
+    "first-name-error": "First name is required",
+    "last-name-label": "Last Name",
+    "last-name-placeholder": "Doe",
+    "last-name-error": "Last name is required",
+    "password-label": "Password",
+    "password-placeholder": "Create a secure password",
+    "password-error": "Password must be at least 8 characters with one number and one special character",
+    "confirm-password-label": "Confirm Password",
+    "confirm-password-error": "Passwords do not match",
+    "create-account-button": "Create Account",
+    "processing": "Creating account…",
+    "success-message": "Account created successfully!"
+  },
+  "complete": {
+    "title": "Welcome to KeyPriv!",
+    "subtitle": "Your account has been successfully created",
+    "message": "You can now access your account and start using KeyPriv",
+    "continue-button": "Continue to Dashboard"
+  }
+}
