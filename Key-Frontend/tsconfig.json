@@ -32,7 +32,10 @@
     "strictNullChecks": true,
     "sourceMap": true,
     "outDir": "./dist",
-    "rootDir": "./"
+    "rootDir": "./",
+    "paths": {
+      "@/*": ["./src/*"]
+    }
   },
   "include": [
     "next-env.d.ts",
@@ -45,7 +48,6 @@
   "exclude": [
     "node_modules",
     "dist",
-    "src",
     "**/*.test.tsx"
   ]
 }

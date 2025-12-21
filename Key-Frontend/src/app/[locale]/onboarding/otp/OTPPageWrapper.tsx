@@ -1,8 +1,8 @@
 import { getMessages } from 'next-intl/server';
 import { NextIntlClientProvider } from 'next-intl';
-import Card3OrganizationSetupClient from '../../../../components/onboarding/Card3OrganizationSetupClient';
+import Card2OTPClient from '../../../../components/onboarding/Card2OTPClient';
 
-export default async function OrgSetupPageWrapper({
+export default async function OTPPageWrapper({
   params,
 }: {
   params: { locale: string };
@@ -11,8 +11,8 @@ export default async function OrgSetupPageWrapper({
   const messages = await getMessages({ locale: params.locale });
 
   return (
-    <NextIntlClientProvider messages={messages}>
-      <Card3OrganizationSetupClient />
+    <NextIntlClientProvider messages={messages} locale={params.locale}>
+      <Card2OTPClient />
     </NextIntlClientProvider>
   );
 }

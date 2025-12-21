@@ -11,7 +11,7 @@ export default async function CompletePageWrapper({
   const messages = await getMessages({ locale: params.locale });
 
   return (
-    <NextIntlClientProvider messages={messages}>
+    <NextIntlClientProvider messages={messages} locale={params.locale}>
       <CompleteClient />
     </NextIntlClientProvider>
   );

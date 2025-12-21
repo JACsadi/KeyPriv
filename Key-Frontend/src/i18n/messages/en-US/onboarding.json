@@ -16,6 +16,8 @@
     "otp-label": "Enter Verification Code",
     "otp-error": "Please enter the complete 6-digit code",
     "verification-failed": "Verification failed. Please try again.",
+    "lockout-error": "Too many attempts. Please try again in 15 minutes.",
+    "lockout-timer": "Unlock in: {timer}",
     "resend-link": "Resend code",
     "resend-countdown": "Resend code in {seconds} seconds",
     "next-button": "Next →",

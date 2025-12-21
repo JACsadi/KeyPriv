@@ -2,6 +2,7 @@ import {getMessages} from 'next-intl/server';
 import {NextIntlClientProvider} from 'next-intl';
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
+import LanguageSwitcher from "@/components/common/LanguageSwitcher";
 import "../globals.css";
 
 const geistSans = Geist({
@@ -35,7 +36,10 @@ export default async function LocaleLayout({
   return (
     <html lang={locale} dir={localeDir(locale)}>
       <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
-        <NextIntlClientProvider messages={messages}>
+        <NextIntlClientProvider messages={messages} locale={locale}>
+          <div className="absolute top-4 right-4 z-50">
+            <LanguageSwitcher />
+          </div>
           {children}
         </NextIntlClientProvider>
       </body>

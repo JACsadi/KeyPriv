@@ -1,8 +1,8 @@
 import { getMessages } from 'next-intl/server';
 import { NextIntlClientProvider } from 'next-intl';
-import EmailEntryCardClient from '../../components/onboarding/EmailEntryCardClient';
+import Card3OrganizationSetupClient from '../../../../components/onboarding/Card3OrganizationSetupClient';
 
-export default async function EmailEntryWrapper({
+export default async function OrgSetupPageWrapper({
   params,
 }: {
   params: { locale: string };
@@ -10,12 +10,9 @@ export default async function EmailEntryWrapper({
   // Load messages for the current locale
   const messages = await getMessages({ locale: params.locale });
 
-  // Placeholder functions for the component props
-
-
   return (
-    <NextIntlClientProvider messages={messages}>
-      <EmailEntryCardClient />
+    <NextIntlClientProvider messages={messages} locale={params.locale}>
+      <Card3OrganizationSetupClient />
     </NextIntlClientProvider>
   );
 }

@@ -1,8 +1,8 @@
 import { getMessages } from 'next-intl/server';
 import { NextIntlClientProvider } from 'next-intl';
-import Card4AdminAccountClient from '../../../../components/onboarding/Card4AdminAccountClient';
+import EntitySetupClient from './EntitySetupClient';
 
-export default async function AdminAccountPageWrapper({
+export default async function EntitySetupPageWrapper({
   params,
 }: {
   params: { locale: string };
@@ -11,8 +11,8 @@ export default async function AdminAccountPageWrapper({
   const messages = await getMessages({ locale: params.locale });
 
   return (
-    <NextIntlClientProvider messages={messages}>
-      <Card4AdminAccountClient />
+    <NextIntlClientProvider locale={params.locale} messages={messages}>
+      <EntitySetupClient />
     </NextIntlClientProvider>
   );
 }
