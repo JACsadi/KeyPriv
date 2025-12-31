@@ -1,6 +1,6 @@
 import { getMessages } from 'next-intl/server';
 import { NextIntlClientProvider } from 'next-intl';
-import OrgProfileFormClient from '../../../../components/onboarding/OrgProfileFormClient';
+import OrgProfileFormClient from '@/features/onboarding/components/OrgProfileFormClient';
 
 export default async function OrgProfilePageWrapper({
   params,

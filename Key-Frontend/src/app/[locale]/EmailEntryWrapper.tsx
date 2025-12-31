@@ -1,6 +1,6 @@
 import { getMessages } from 'next-intl/server';
 import { NextIntlClientProvider } from 'next-intl';
-import EmailEntryCardClient from '../../components/onboarding/EmailEntryCardClient';
+import EmailEntryCardClient from '@/features/onboarding/components/EmailEntryCardClient';
 
 export default async function EmailEntryWrapper({
   params,

@@ -1,6 +1,6 @@
 import { getMessages } from 'next-intl/server';
 import { NextIntlClientProvider } from 'next-intl';
-import CompleteClient from '../../../../components/onboarding/CompleteClient';
+import CompleteClient from '@/features/onboarding/components/CompleteClient';
 
 export default async function CompletePageWrapper({
   params,

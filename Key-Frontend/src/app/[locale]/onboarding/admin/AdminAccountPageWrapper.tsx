@@ -1,6 +1,6 @@
 import { getMessages } from 'next-intl/server';
 import { NextIntlClientProvider } from 'next-intl';
-import Card4AdminAccountClient from '../../../../components/onboarding/Card4AdminAccountClient';
+import Card4AdminAccountClient from '@/features/onboarding/components/Card4AdminAccountClient';
 
 export default async function AdminAccountPageWrapper({
   params,

@@ -1,6 +1,6 @@
 import { getMessages } from 'next-intl/server';
 import { NextIntlClientProvider } from 'next-intl';
-import Card3OrganizationSetupClient from '../../../../components/onboarding/Card3OrganizationSetupClient';
+import Card3OrganizationSetupClient from '@/features/onboarding/components/Card3OrganizationSetupClient';
 
 export default async function OrgSetupPageWrapper({
   params,

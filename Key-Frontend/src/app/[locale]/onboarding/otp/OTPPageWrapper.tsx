@@ -1,6 +1,6 @@
 import { getMessages } from 'next-intl/server';
 import { NextIntlClientProvider } from 'next-intl';
-import Card2OTPClient from '../../../../components/onboarding/Card2OTPClient';
+import Card2OTPClient from '@/features/onboarding/components/Card2OTPClient';
 
 export default async function OTPPageWrapper({
   params,
